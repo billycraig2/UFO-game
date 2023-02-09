@@ -5,6 +5,7 @@ int main() {
 
     std::string codeword = "codecademy";
     std::string answer = "__________";
+    int misses = 0;
 
     greet();
 
