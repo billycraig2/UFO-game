@@ -1,3 +1,6 @@
-//
-// Created by billy on 09/02/2023.
-//
+#include <vector>
+
+void display_misses(int misses);
+
+// Declare functions
+void greet();

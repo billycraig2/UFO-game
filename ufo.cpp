@@ -1,3 +1,8 @@
-//
-// Created by billy on 09/02/2023.
-//
+#include <iostream>
+#include "ufo_functions.hpp"
+
+int main() {
+
+    greet();
+
+}
