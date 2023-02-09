@@ -3,6 +3,9 @@
 
 int main() {
 
+    std::string codeword = "codecademy";
+    std::string answer = "__________";
+
     greet();
 
 }
