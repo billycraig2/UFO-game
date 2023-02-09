@@ -16,7 +16,12 @@ int main() {
         std::cout << "Incorrect Guesses: ";
 
         for(char i : incorrect) {
-            std::cout << i;
+            std::cout << i << " ";
+        }
+
+        std::cout << "Codeword: ";
+        for(char i : answer) {
+            std::cout << i << " ";
         }
 
         misses++;
