@@ -9,4 +9,8 @@ int main() {
 
     greet();
 
+    while(answer != codeword && misses < 7) {
+        misses++;
+    }
+
 }
