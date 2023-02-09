@@ -3,6 +3,7 @@
 
 // Define functions
 void greet() {
+
     std::cout << "=============\n"
               << "UFO: The Game\n"
               << "=============\n"
@@ -10,11 +11,26 @@ void greet() {
 }
 
 void end_game(std::string answer, std::string codeword) {
+
     if(answer == codeword) {
         std::cout << "Hooray! You saved the person and earned a medal of honor!";
     }
     else {
         std::cout << "Oh no! The UFO just flew away with another person!";
+    }
+}
+
+void display_status(std::vector<char> incorrect, std::string answer) {
+
+    std::cout << "Incorrect Guesses: ";
+
+    for(char i : incorrect) {
+        std::cout << i << " ";
+    }
+
+    std::cout << "Codeword: ";
+    for(char i : answer) {
+        std::cout << i << " ";
     }
 }
 

@@ -13,17 +13,7 @@ int main() {
 
     while(answer != codeword && misses < 7) {
         display_misses(misses);
-        std::cout << "Incorrect Guesses: ";
-
-        for(char i : incorrect) {
-            std::cout << i << " ";
-        }
-
-        std::cout << "Codeword: ";
-        for(char i : answer) {
-            std::cout << i << " ";
-        }
-
+        display_status(incorrect, answer);
         misses++;
     }
 
