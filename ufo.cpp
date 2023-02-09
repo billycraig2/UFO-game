@@ -13,4 +13,6 @@ int main() {
         misses++;
     }
 
+    end_game(answer, codeword);
+
 }
